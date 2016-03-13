@@ -30,8 +30,21 @@ a {
 }
 #map {
     width: 100%;
-    height: 500px;
 }
+
+.program_day {
+	display: inline-block;
+	width: 30%;
+}
+.program_day img {
+	width: 40%;
+}
+.program_day p {
+	font-family: 'Marvel', sans-serif;
+	text-transform: uppercase;
+	display: block;
+}
+
 
 
 
@@ -43,6 +56,12 @@ a {
 	height: 34px;
 	width: 34px;
 	line-height: 34px;
+	vertical-align: middle;
+}
+
+.tabs-style-flip li span {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .tabs-style-flip nav li a {
@@ -53,6 +72,80 @@ a {
 .tabs nav ul li {
     background: rgba(0,0,0, 0.1);
 }
+
+
+
+
+
+
+#section-flip-4 .ullist li {
+	display: inline-block;
+}
+
+#section-flip-4 #controls-tabs {
+	margin-top: 30px;
+}
+
+#section-flip-4 .tabs dd:first-child, #section-flip-4 .tabs li:first-child {
+    margin-left: 0;
+}
+#section-flip-4 .tabs dd.active, #section-flip-4 .tabs li.active {
+    border-top: 3px solid #b82200;
+    margin-top: -3px;
+}
+#section-flip-4 .tabs-content li {
+    list-style-type: none!important;
+}
+#section-flip-4 .tabs dd, #section-flip-4 .tabs li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+#section-flip-4 .tabs .ullist li.active a {
+    font-weight: bold;
+    color: #3c3c3c!important;
+    background-color: #fff!important;
+}
+
+#section-flip-4 .ullist li.active a, #section-flip-4 .ullist li a:hover {
+    color: #B82200!important;
+    background-color: #eee!important;
+}
+#section-flip-4 .ullist li.active a {
+    font-weight: bold;
+}
+#section-flip-4 .tabs .ullist li a {
+    padding: 0px 23.8px!important;
+}
+#section-flip-4 .tabs dd.active a, #section-flip-4 .tabs li.active a {
+    cursor: default;
+    color: #3c3c3c;
+    background: #fff;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    font-weight: bold;
+}
+#section-flip-4 .tabs dd a, #section-flip-4 .tabs li a {
+    color: #6f6f6f;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 23.8px;
+}
+#section-flip-4 a {
+    color: #b82200;
+    text-decoration: none;
+    line-height: inherit;
+}
+
+
+
+
+
+
+
 
 
 
@@ -101,18 +194,6 @@ p {
 
 
 /* Default tab style */
-
-@font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'stroke7pixeden';
-	src:url('../fonts/stroke7pixeden/stroke7pixeden.eot?u58ytb');
-	src:url('../fonts/stroke7pixeden/stroke7pixeden.eot?#iefixu58ytb') format('embedded-opentype'),
-		url('../fonts/stroke7pixeden/stroke7pixeden.woff?u58ytb') format('woff'),
-		url('../fonts/stroke7pixeden/stroke7pixeden.ttf?u58ytb') format('truetype'),
-		url('../fonts/stroke7pixeden/stroke7pixeden.svg?u58ytb#stroke7pixeden') format('svg');
-}
-
 .tabs {
 	position: relative;
 	overflow: hidden;
