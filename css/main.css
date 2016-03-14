@@ -73,13 +73,30 @@ a {
     background: rgba(0,0,0, 0.1);
 }
 
+.gm-style-iw img {
+	display: none;
+}
 
+#info img {
+	float: left;
+	height: 160px;
+	margin-top: 10px;
+}
 
+#info {
+	clear: both;
+    height: 160px;
+}
 
-
+#section-flip-4 .ullist{
+    border-bottom: 1px solid gray;
+	text-align: left !important;
+}
 
 #section-flip-4 .ullist li {
 	display: inline-block;
+	padding: 5px 5px 0 5px;
+	font-size: 14px;
 }
 
 #section-flip-4 #controls-tabs {
