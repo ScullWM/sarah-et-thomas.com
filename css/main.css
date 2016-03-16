@@ -11,9 +11,18 @@ body {
 }
 
 a {
-	color: #2CC185;
+	color: #A22D2D;
 	text-decoration: none;
 	outline: none;
+}
+
+h1 {
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 100px;
+	color: #A22D2D;
 }
 
 
@@ -193,7 +202,7 @@ a:hover, a:focus {
 }
 
 .container > section {
-	padding: 5em 0;
+	padding: 1em 0;
 	font-size: 1.25em;
 	min-height: 100%;
 }
@@ -287,6 +296,10 @@ p {
 	position: relative;
 }
 
+.container > section {
+	margin-bottom: 200px;
+}
+
 .content-wrap section {
 	display: none;
 	margin: 0 auto;
@@ -351,7 +364,7 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
-	font-size: 0.625em;
+	font-size: 0.825em;
 }
 
 .tabs-style-flip nav a::after {
