@@ -4,7 +4,7 @@ module.exports = function(grunt){
         uglify: {
           js_path: {
             files: {
-              'js/output.min.js': ['js/cbpFWTabs.js', 'js/maplace.js', 'js/places.js', 'js/main.js']
+              'js/output.min.js': ['js/modernizr.custom.js', 'js/cbpFWTabs.js', 'js/maplace.js', 'js/places.js', 'js/main.js']
             }
           }
         },
